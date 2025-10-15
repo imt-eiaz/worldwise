@@ -6,8 +6,7 @@ import PageNotFound from "./pages/PageNotFound";
 
 function App() {
   return (
-    <div>
-      <h2>Hello Router!</h2>
+    <>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
@@ -16,7 +15,7 @@ function App() {
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
-    </div>
+    </>
   );
 }
 
