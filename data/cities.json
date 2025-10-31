@@ -10,7 +10,7 @@
         "lat": 38.727881642324164,
         "lng": -9.140900099907554
       },
-      "id": 73930385
+      "id": "73930385"
     },
     {
       "cityName": "Madrid",
@@ -22,7 +22,7 @@
         "lat": 40.46635901755316,
         "lng": -3.7133789062500004
       },
-      "id": 17806751
+      "id": "17806751"
     },
     {
       "cityName": "Berlin",
@@ -34,7 +34,103 @@
         "lat": 52.53586782505711,
         "lng": 13.376933665713324
       },
-      "id": 98443197
+      "id": "98443197"
+    },
+    {
+      "id": "c32f",
+      "cityName": "Chakhansur",
+      "country": "Afghanistan",
+      "emoji": "🇦🇫",
+      "date": "2025-10-23T17:58:16.508Z",
+      "notes": "",
+      "position": {
+        "lat": "31.255120319094168",
+        "lng": "62.02880819141868"
+      }
+    },
+    {
+      "id": "b11e",
+      "cityName": "Amadora",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2025-10-31T18:19:55.874Z",
+      "notes": "",
+      "position": {
+        "lat": "38.78708721958388",
+        "lng": "-9.228483859958423"
+      }
+    },
+    {
+      "id": "a2c2",
+      "cityName": "Haizer",
+      "country": "Algeria",
+      "emoji": "🇩🇿",
+      "date": "2025-10-31T18:24:15.884Z",
+      "notes": "",
+      "position": {
+        "lat": "36.37813306493744",
+        "lng": "3.93868929553531"
+      }
+    },
+    {
+      "id": "2611",
+      "cityName": "Rouvres",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2025-10-31T18:29:15.194Z",
+      "notes": "ssaasax",
+      "position": {
+        "lat": "49.063859299042896",
+        "lng": "2.725375265446744"
+      }
+    },
+    {
+      "id": "d06f",
+      "cityName": "Nunspeet",
+      "country": "Netherlands (Kingdom of the)",
+      "emoji": "🇳🇱",
+      "date": "2025-10-31T18:30:20.885Z",
+      "notes": "",
+      "position": {
+        "lat": "52.293815791037076",
+        "lng": "5.824024507912804"
+      }
+    },
+    {
+      "id": "5402",
+      "cityName": "Palermo",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2025-10-31T18:31:53.297Z",
+      "notes": "",
+      "position": {
+        "lat": "38.107640487420184",
+        "lng": "13.370761920593678"
+      }
+    },
+    {
+      "id": "56d4",
+      "cityName": "Puebla de Don Rodrigo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-10-31T18:37:41.195Z",
+      "notes": "",
+      "position": {
+        "lat": "39.15965247299744",
+        "lng": "-4.7456313921726965"
+      }
+    },
+    {
+      "id": "8abb",
+      "cityName": "Burguillos",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2025-10-31T18:37:45.698Z",
+      "notes": "",
+      "position": {
+        "lat": "37.61004471925969",
+        "lng": "-5.93207718179331"
+      }
     }
   ]
 }

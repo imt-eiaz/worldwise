@@ -45,7 +45,35 @@ function CitiesProvider({ children }) {
         setCurrentCity(found || {});
       } else {
         const data = await res.json();
-        setCurrentCity(data);
+        setCities((cities) => [...cities, data]);
+        // setCurrentCity(data);
+      }
+    } catch {
+      alert("There was an error loading data...");
+    } finally {
+      setIsLoading(false);
+    }
+  }
+
+  async function createCity(newCity) {
+    try {
+      setIsLoading(true);
+      const res = await fetch(`${BASE_URL}/cities`, {
+        method: "POST",
+        body: JSON.stringify(newCity),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      if (!res.ok) {
+        // fallback to bundled data
+        const found = (localData.cities || []).find(
+          (c) => String(c.id) === String(id)
+        );
+        setCurrentCity(found || {});
+      } else {
+        const data = await res.json();
+        console.log(data);
       }
     } catch {
       alert("There was an error loading data...");
@@ -55,7 +83,9 @@ function CitiesProvider({ children }) {
   }
 
   return (
-    <CitiesContext.Provider value={{ cities, isLoading, currentCity, getCity }}>
+    <CitiesContext.Provider
+      value={{ cities, isLoading, currentCity, getCity, createCity }}
+    >
       {children}
     </CitiesContext.Provider>
   );
